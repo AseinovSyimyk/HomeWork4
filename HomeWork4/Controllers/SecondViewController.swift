@@ -8,12 +8,12 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
     var goods: Goods?
     
     private let goodsImage = UIImageView(frame:
-                                        CGRect(x: 20, y: 20, width: 350, height: 350))
- 
+                                            CGRect(x: 20, y: 20, width: 350, height: 350))
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     private let tableView = UITableView()
-
+    
     private let cell = "cell"
     private var goodsList: [Goods] = []
     override func viewDidLoad() {
@@ -22,10 +22,10 @@ class ViewController: UIViewController {
     
     private func initData() {
         goodsList = [
-        Goods(image: "Furniture", name: "Furniture", count: 10,price: 25000),
-        Goods(image: "Kitchenware", name: "Kitchenware", count: 10,price: 100000),
-        Goods(image: "Reading Table", name: "Reading Table", count: 10,price: 10000),
-        Goods(image: "TV", name: "tv", count: 10,price: 30000),
+            Goods(image: "Furniture", name: "Furniture", count: 10,price: 25000),
+            Goods(image: "Kitchenware", name: "Kitchenware", count: 10,price: 100000),
+            Goods(image: "Reading Table", name: "Reading Table", count: 10,price: 10000),
+            Goods(image: "TV", name: "tv", count: 10,price: 30000),
         ]
     }
     private func initUI(){
@@ -65,8 +65,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
         
         
     }
-        
-}
     
+}
+
 
 
